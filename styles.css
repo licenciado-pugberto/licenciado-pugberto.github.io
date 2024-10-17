@@ -6,19 +6,18 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: white; /* Color dorado para el texto */
+    color: white; /* Color del texto */
 }
 
 header {
     text-align: center;
-    color: gold; /* Color dorado para el texto en el encabezado */
+    color: white;
     background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro para el encabezado */
     padding: 20px;
 }
 
 h1, h2 {
     margin: 0;
-    color: gold; /* Color dorado para h1 y h2 */
     text-shadow: 
         -1px -1px 0 #000,  
          1px -1px 0 #000,
@@ -31,7 +30,6 @@ main {
 }
 
 p, ul li {
-    color: gold; /* Color dorado para párrafos y listas */
     text-shadow: 
         -1px -1px 0 #000,  
          1px -1px 0 #000,
@@ -41,7 +39,7 @@ p, ul li {
 
 footer {
     text-align: center;
-    color: gold; /* Color dorado para el texto en el pie de página */
+    color: white;
     background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro para el pie de página */
     padding: 10px;
 }
