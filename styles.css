@@ -18,10 +18,23 @@ header {
 
 h1, h2 {
     margin: 0;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; /* Contorno negro para h1 y h2 */
 }
 
 main {
     padding: 20px;
+}
+
+p, ul li {
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; /* Contorno negro para párrafos y listas */
 }
 
 footer {
